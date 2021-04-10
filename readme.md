@@ -3,9 +3,9 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
-* **Minor:** `Visual Interface Design`
+* **Naam:** Sebastiaan Hulst
+* **Klas:** VID2
+* **Minor:** Visual Interface Design
 * **Favoriete dier:** `Zeeotters zijn te gek!`
 * **Startniveau:** `blauw/rood/zwart`
 
