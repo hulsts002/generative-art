@@ -10,7 +10,6 @@
 * **Startniveau:** `blauw/rood/zwart`
 
 ## Concept
-
 `Beschrijf in het algemeen je concept van je project.`
 
 ## Features
@@ -19,6 +18,13 @@
 
 ## Onderzoek & inspiratie
 `Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+
+Ik heb wat onderzoek gedaan naar generative art en verschillende stukken art bekeken om te zien wat mij het meest aanspreekt.
+Wat mij het meest aansprak was de circel vormige kunststukken, zoals hieronder te zien.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/inspiratie01.png "inspiratie")
+
+Wat mij tevens aansprak was stukken kunst waar het begint in het middelpunt en zich uitwerkt naar alle kanten.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/inspiratie02.png "inspiratie")
 
 ## Voortang
 
