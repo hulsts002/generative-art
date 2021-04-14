@@ -17,14 +17,20 @@
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
 ## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+
+# Inspiratie onderzoek 01
 
 Ik heb wat onderzoek gedaan naar generative art en verschillende stukken art bekeken om te zien wat mij het meest aanspreekt.
-Wat mij het meest aansprak was de circel vormige kunststukken, zoals hieronder te zien.
-![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie01.png "inspiratie")
+Wat mij het meest aansprak was de circel vormige kunststukken, zoals hieronder te zien. Ik zie het ook in mijn designs terug dat ik niet echt van harde hoeken hou. Knoppen, afbeeldingen, etc. heb ik bijna altijd afgeronde hoeken en vandaar denk ik dat dit mij meer aanspreekt.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie01.png "inspiratie 01")
 
 Wat mij tevens aansprak was stukken kunst waar het begint in het middelpunt en zich uitwerkt naar alle kanten.
-![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie02.png "inspiratie")
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie02.png "inspiratie 02")
+
+# Inspiratie onderzoek 02
+Vanuit hier ben ik gaan kijken naar of ik wellicht deze twee kan combineren, of dat ik mij wat meer kan verdiepen is de circle generative art.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie03.png "inspiratie 03")
+
 
 ## Voortang
 
