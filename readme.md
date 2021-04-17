@@ -18,19 +18,22 @@
 
 ## Onderzoek & inspiratie
 
-# Inspiratie onderzoek 01
+### Inspiratie onderzoek 01
 
 Ik heb wat onderzoek gedaan naar generative art en verschillende stukken art bekeken om te zien wat mij het meest aanspreekt.
-Wat mij het meest aansprak was de circel vormige kunststukken, zoals hieronder te zien. Ik zie het ook in mijn designs terug dat ik niet echt van harde hoeken hou. Knoppen, afbeeldingen, etc. heb ik bijna altijd afgeronde hoeken en vandaar denk ik dat dit mij meer aanspreekt.
+Wat mij het meest aansprak was de cirkel vormige kunststukken, zoals hieronder te zien. Ik zie het ook in mijn designs terug dat ik niet echt van harde hoeken hou. Knoppen, afbeeldingen, etc. heb ik bijna altijd afgeronde hoeken en vandaar denk ik dat dit mij meer aanspreekt.
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie01.png "inspiratie 01")
 
 Wat mij tevens aansprak was stukken kunst waar het begint in het middelpunt en zich uitwerkt naar alle kanten.
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie02.png "inspiratie 02")
 
-# Inspiratie onderzoek 02
+### Inspiratie onderzoek 02
 Vanuit hier ben ik gaan kijken naar of ik wellicht deze twee kan combineren, of dat ik mij wat meer kan verdiepen is de circle generative art.
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie03.png "inspiratie 03")
 
+Daarnaast ben ik gaan kijken naar mijzelf, of ik wellicht wat hobbies kan verwerken in mijn concept. En één van mijn hobbies is voetbal.
+Dus heb ik gekeken of ik deze kan combineren met wat mij aansprak tijdens mijn eerste onderzoek, die cirkel achtige vormen en kunst die vanuit het middelpunt zich uitwerkt naar alle kanten van het canvas.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie04.png "inspiratie 04")
 
 ## Voortang
 
