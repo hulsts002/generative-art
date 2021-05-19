@@ -216,17 +216,17 @@ function patternOneText() {
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("Press R = Red + Reroll", 10, windowHeight - 40);
+	text("Press R = Red + Reroll", 10, windowHeight - 60);
 
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("Press B = Blue + Reroll", 10, windowHeight - 20);
+	text("Press B = Blue + Reroll", 10, windowHeight - 40);
 
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("- & + = Rectangle Size", windowWidth - 200, windowHeight - 40);
+	text("- & + = Rectangle Size", 10, windowHeight - 20);
 
 	noStroke();
 	textSize(15);
