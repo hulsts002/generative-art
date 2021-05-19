@@ -33,6 +33,10 @@ Voor beide patterns geld, als je terug wilt naar home, kan je op ESC drukken.
 
 ## Niet gelukte features
 
+Oorspronkelijk wou ik een home scherm hebben waar 2 ballen te zien zouden zijn die op en neer stuiteren. 
+Het stuiteren was me gelukt, maar het was me helaas niet gelukt om dit te koppelen en de rest van het project.
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Bal%20up%20and%20down.mp4 "Bal stuiteren")
+
 Ik heb geprobeerd een image te gebruiken voor reference, zodat je als gebruiker weet hoe het patroon eruit ziet op de bal.
 Om de één of andere reden wou deze image wel laden op de p5 web editor, maar niet op visual studio waar hij vast bleef staan op "loading..".
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/ProbleemImage01.png "In P5")

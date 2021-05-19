@@ -12,7 +12,7 @@ let img2;
 
 function preload() {
 	img1 = loadImage("assets/Ball01.jpg");
-	img2 = loadImage("assets/Ball03.jpg");
+	img2 = loadImage("assets/Ball02.png");
   }
 
 function setup() {
@@ -106,7 +106,7 @@ function keyPressed() {
 
 function index() {
 	let ballX = windowWidth / 2;
-	let ballY = 250;
+	let ballY = 260;
 	let ballR = 200;
 	// fill(255, 255, 255);
 	// strokeWeight(1);
@@ -114,8 +114,8 @@ function index() {
 	// ellipse(ballX - 150, ballY, ballR);
 	// ellipse(ballX + 150, ballY, ballR);
 
-	image(img1, ballX - 300, ballY, ballR, ballR);
-	image(img2, ballX + 300, ballY, ballR, ballR);
+	image(img1, ballX - 260, ballY, ballR, ballR);
+	image(img2, ballX + 150, ballY, ballR, ballR);
 
 	// Text
 	fill(0, 0, 0);
@@ -215,7 +215,7 @@ function patternTwoRed() {
 		push();
 		fill(255, 255, 255);
 		stroke("#000000");
-		strokeWeight(3);
+		strokeWeight(4);
 		star(
 			random(70, windowWidth - 70),
 			random(70, windowHeight - 70),
@@ -244,7 +244,7 @@ function patternTwoGreen() {
 		push();
 		fill(255, 255, 255);
 		stroke("#000000");
-		strokeWeight(3);
+		strokeWeight(4);
 		star(
 			random(70, windowWidth - 70),
 			random(70, windowHeight - 70),
