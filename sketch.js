@@ -114,7 +114,7 @@ function index() {
 	// ellipse(ballX - 150, ballY, ballR);
 	// ellipse(ballX + 150, ballY, ballR);
 
-	image(img1, ballX - 300, ballY, ballR, ballR);
+	// image(img1, ballX - 300, ballY, ballR, ballR);
 	image(img2, ballX + 300, ballY, ballR, ballR);
 
 	// Text
