@@ -11,7 +11,7 @@ let img1;
 let img2;
 
 function preload() {
-	img1 = loadImage("assets/Ball01.jpg");
+	// img1 = loadImage("assets/Ball01.jpg");
 	img2 = loadImage("assets/Ball03.jpg");
   }
 
