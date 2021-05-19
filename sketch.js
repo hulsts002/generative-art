@@ -7,10 +7,12 @@ var totalStarCount = 3;
 var count;
 var p1 = false;
 var p2 = false;
-let img;
+let img1;
+let img2;
 
 function preload() {
-	img = loadImage("assets/Ball01.jpg");
+	img1 = loadImage("assets/Ball01.jpg");
+	img2 = loadImage("assets/Ball03.jpg");
   }
 
 function setup() {
@@ -105,14 +107,15 @@ function keyPressed() {
 function index() {
 	let ballX = windowWidth / 2;
 	let ballY = 200;
-	let ballRadius = 140;
+	let ballR = 200;
 	// fill(255, 255, 255);
 	// strokeWeight(1);
 	// stroke(31);
-	// ellipse(ballX - 150, ballY, ballRadius);
-	// ellipse(ballX + 150, ballY, ballRadius);
+	// ellipse(ballX - 150, ballY, ballR);
+	// ellipse(ballX + 150, ballY, ballR);
 
-	image(img, ballX - 300, ballY, 200, 200);
+	image(img1, ballX - 300, ballY, ballR, ballR);
+	image(img2, ballX + 300, ballY, ballR, ballR);
 
 	// Text
 	fill(0, 0, 0);
