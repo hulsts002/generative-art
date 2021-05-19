@@ -25,7 +25,7 @@ Er zijn twee patterns uitgewerkt. Toets 1 gaat naar pattern 1 en toets 2 gaat na
 Pattern 1 gebruikt twee kleuren: Toets R is rood en toets B is blauw. Daarnaast kan je de grote van de vierkanten vergroten en verkleinen met - en +.
 
 ### Pattern 2
-Pattern 2 gebruikt tevens twee kleuren: Toets R is rood en toets G is groen. Met de toetsen - en + kun je vervolgens het aantal sterren aanpassen.
+Pattern 2 gebruikt tevens twee kleuren: Toets R is rood en toets G is groen. Met de toetsen - en + kun je vervolgens het aantal sterren aanpassen. Ook kan er met mouse click rectangles toegevoegd worden, en met spatie kan dit gereset worden.
 
 Voor beide patterns geld, als je terug wilt naar home, kan je op ESC drukken.
 
