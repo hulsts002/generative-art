@@ -20,6 +20,17 @@ De patronen die te zien zijn op verschillende ballen te visualiseren op een ande
 
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
+### Home
+Er zijn twee patterns uitgewerkt. Toets 1 gaat naar pattern 1 en toets 2 gaat naar pattern 2.
+
+### Pattern 1
+Pattern 1 gebruikt twee kleuren: Toets R is rood en toets B is blauw. Daarnaast kan je de grote van de vierkanten vergroten en verkleinen met - en +.
+
+### Pattern 2
+Pattern 2 gebruikt tevens twee kleuren: Toets R is rood en toets G is groen. Met de toetsen - en + kun je vervolgens het aantal sterren aanpassen.
+
+Voor beide patterns geld, als je terug wilt naar home, kan je op ESC drukken.
+
 ## Niet gelukte features
 
 Ik heb geprobeerd een image te gebruiken voor reference, zodat je als gebruiker weet hoe het patroon eruit ziet op de bal.
