@@ -2,7 +2,7 @@ var canvas;
 let button;
 var rectR = 40;
 var x, y, w, h;
-var totalShapeCount = 4;
+var totalShapeCount = 5;
 var totalStarCount = 3;
 var count;
 var p1 = false;
@@ -11,6 +11,8 @@ let img1;
 let img2;
 
 function preload() {
+
+	// Loading images
 	img1 = loadImage("assets/Ball01.jpg");
 	img2 = loadImage("assets/Ball02.png");
   }
@@ -18,9 +20,11 @@ function preload() {
 function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
 	background(255);
-	rectMode(CENTER);
-	index();
 	frameRate(1);
+	rectMode(CENTER);
+
+	// Initiate home screen
+	index();
 }
 
 function draw() {
@@ -108,12 +112,15 @@ function index() {
 	let ballX = windowWidth / 2;
 	let ballY = 260;
 	let ballR = 200;
+
+	// Ball with ellipses
 	// fill(255, 255, 255);
 	// strokeWeight(1);
 	// stroke(31);
 	// ellipse(ballX - 150, ballY, ballR);
 	// ellipse(ballX + 150, ballY, ballR);
 
+	// Real images as ball
 	image(img1, ballX - 250, ballY, ballR, ballR);
 	image(img2, ballX + 50, ballY, ballR, ballR);
 
@@ -140,6 +147,7 @@ function patternOneRed() {
 	}
 	patternOneText();
 
+	// Boolean for key events
 	p2 = false;
 	p1 = true;
 
@@ -158,6 +166,7 @@ function patternOneBlue() {
 	}
 	patternOneText();
 
+	// Boolean for key events
 	p2 = false;
 	p1 = true;
 
@@ -165,6 +174,7 @@ function patternOneBlue() {
 
 function patternOneText() {
 
+	// On screen text
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
@@ -189,13 +199,12 @@ function patternOneText() {
 		windowHeight - 20
 	);
 
-
 }
 
 function drawRandomRectangles() {
 	x = random(width);
 	y = random(-200, 200);
-	w = 150;
+	w = random(130,180);
 	h = 2400;
 
 	noStroke();
@@ -206,11 +215,13 @@ function drawRandomRectangles() {
 function patternTwoRed() {
 	background(138, 226, 255);
 
+	// Draw X amount of rectangles based on variable
 	for (var i = 0; i < totalShapeCount; i++) {
 		fill(200, 10, 10, 130);
 		drawRandomRectangles();
 	}
 
+	// Draw X amount of stars based on variable
 	for (var t = 0; t < totalStarCount; t++) {
 		push();
 		fill(255, 255, 255);
@@ -226,6 +237,7 @@ function patternTwoRed() {
 		pop();
 	}
 
+	// boolean for key events
 	p1 = false;
 	p2 = true;
 
@@ -235,11 +247,13 @@ function patternTwoRed() {
 function patternTwoGreen() {
 	background(138, 226, 255);
 
+	// Draw X amount of rectangles based on variable, this time fill color Green
 	for (var i = 0; i < totalShapeCount; i++) {
 		fill(25, 155, 15, 100);
 		drawRandomRectangles();
 	}
 
+	// Draw X amount of stars based on variable
 	for (var t = 0; t < totalStarCount; t++) {
 		push();
 		fill(255, 255, 255);
@@ -255,6 +269,7 @@ function patternTwoGreen() {
 		pop();
 	}
 
+	// boolean for key events
 	p1 = false;
 	p2 = true;
 
@@ -262,6 +277,8 @@ function patternTwoGreen() {
 }
 
 function patternTwoText() {
+
+	// On screen text
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
@@ -277,6 +294,7 @@ function patternTwoText() {
 	fill(0, 0, 0);
 	text("- & + = Star Count", windowWidth - 170, windowHeight - 40);
 
+	// Keeps star count up to date
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
