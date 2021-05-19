@@ -1,14 +1,9 @@
-/* 👇 Start writing your p5.js code here */
+let img;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
+function preload() {
+  img = loadImage("assets/Ball01.jpg");
 }
 
 function draw() {
-  background(220);
-  ellipse(width / 2, height / 2, 50, 50);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  image(img, 0, 0, 100, 100);
 }
