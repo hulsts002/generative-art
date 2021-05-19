@@ -11,7 +11,7 @@ let img1;
 let img2;
 
 function preload() {
-	// img1 = loadImage("assets/Ball01.jpg");
+	img1 = loadImage("assets/Ball01.jpg");
 	img2 = loadImage("assets/Ball03.jpg");
   }
 
@@ -106,7 +106,7 @@ function keyPressed() {
 
 function index() {
 	let ballX = windowWidth / 2;
-	let ballY = 200;
+	let ballY = 250;
 	let ballR = 200;
 	// fill(255, 255, 255);
 	// strokeWeight(1);
@@ -114,7 +114,7 @@ function index() {
 	// ellipse(ballX - 150, ballY, ballR);
 	// ellipse(ballX + 150, ballY, ballR);
 
-	// image(img1, ballX - 300, ballY, ballR, ballR);
+	image(img1, ballX - 300, ballY, ballR, ballR);
 	image(img2, ballX + 300, ballY, ballR, ballR);
 
 	// Text
