@@ -104,7 +104,7 @@ function keyPressed() {
 
 function index() {
 	let ballX = windowWidth / 2;
-	let ballY = 300;
+	let ballY = 200;
 	let ballRadius = 140;
 	// fill(255, 255, 255);
 	// strokeWeight(1);
@@ -112,7 +112,7 @@ function index() {
 	// ellipse(ballX - 150, ballY, ballRadius);
 	// ellipse(ballX + 150, ballY, ballRadius);
 
-	image(img, ballX - 180, ballY, 300, 300);
+	image(img, ballX - 300, ballY, 200, 200);
 
 	// Text
 	fill(0, 0, 0);
