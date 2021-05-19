@@ -112,7 +112,7 @@ function index() {
 	// ellipse(ballX - 150, ballY, ballRadius);
 	// ellipse(ballX + 150, ballY, ballRadius);
 
-	image(img, ballX - 180, ballY, 200, 200);
+	image(img, ballX - 180, ballY, 300, 300);
 
 	// Text
 	fill(0, 0, 0);
