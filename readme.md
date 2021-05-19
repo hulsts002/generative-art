@@ -14,11 +14,9 @@
 Ik wil een voetbal laten genereren op basis van variabelen die een gebruiker kan kiezen. Qua visualisatie ligt de bal op een veld en hoe de bal eruit ziet wordt gegenereerd.
 
 ### Concept v2
-De patronen die te zien zijn op verschillende ballen te visualiseren op een andere manier maar dat het wel zichtbaar blijft dat het op basis van de patronen op de bal is.
+De patronen die te zien zijn op verschillende ballen te visualiseren op een andere manier maar dat het wel zichtbaar blijft dat het op basis van de patronen op de bal is. En elke keer wordt het gerandomized zodat het elke keer anders is.
 
 ## Features
-
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
 ### Home
 Er zijn twee patterns uitgewerkt. Toets 1 gaat naar pattern 1 en toets 2 gaat naar pattern 2.
@@ -36,11 +34,7 @@ Voor beide patterns geld, als je terug wilt naar home, kan je op ESC drukken.
 Oorspronkelijk wou ik een home scherm hebben waar 2 ballen te zien zouden zijn die op en neer stuiteren. 
 Het stuiteren was me gelukt, maar het was me helaas niet gelukt om dit te koppelen en de rest van het project.
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Bal%20up%20and%20down.mp4 "Bal stuiteren")
-
-Ik heb geprobeerd een image te gebruiken voor reference, zodat je als gebruiker weet hoe het patroon eruit ziet op de bal.
-Om de één of andere reden wou deze image wel laden op de p5 web editor, maar niet op visual studio waar hij vast bleef staan op "loading..".
-![alt text](https://github.com/hulsts002/generative-art/blob/main/images/ProbleemImage01.png "In P5")
-![alt text](https://github.com/hulsts002/generative-art/blob/main/images/ProbleemImage02.png "In Visual Studio")
+https://editor.p5js.org/sebastiaanhulst97/sketches/KmxyAr_7H
 
 ## Onderzoek & inspiratie
 
@@ -62,8 +56,6 @@ Dus heb ik gekeken of ik deze kan combineren met wat mij aansprak tijdens mijn e
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Inspiratie04.png "inspiratie 04")
 
 ## Voortang
-
-`Schrijf hier een klein logboekje met je voortgang per week.`
 
 ### Week-1
 Ik heb gekeken naar wat generative art is. Ik heb vele voorbeelden opgezocht op google en youtube om een idee te krijgen wat er allemaal mogelijk is. Vervolgens ben ik gaan onderzoeken wat mij het meest aanspreekt en waar ik wellicht gebruik van wil maken. 
@@ -96,8 +88,14 @@ Ik merk echter wel dat ik moeite heb met coderen. Ik probeer veel dingen uit, so
 Bijvoorbeeld de sterren hieronder te zien, om de één of andere reden is 1 ster een andere kleur. Hetzelfde geldt voor 1 van de rectangles. Daarnaast wou ik de rectangles dezelfde kleur hebben wat ook niet helemaal wou lukken.
 ![alt text](https://github.com/hulsts002/generative-art/blob/main/images/Week5.3.png "Probleem")
 
+Ik heb geprobeerd een image te gebruiken voor reference op de home pagina, zodat je als gebruiker weet hoe het patroon eruit ziet op de bal. Om de één of andere reden wou deze image wel laden op de p5 web editor, maar niet op visual studio waar hij vast bleef staan op "loading..".
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/ProbleemImage01.png "In P5")
+![alt text](https://github.com/hulsts002/generative-art/blob/main/images/ProbleemImage02.png "In Visual Studio")
+
+Na een paar uur ben ik erachter gekomen dat ik de images wel kan zien als ik het via github pages open. Maar om deze reden moet ik het werk eerst pushen naar github voordat ik het kan zien en gaat het aanpassen wat moeilijker. Als ik de pagina open vanuit visual studio blijft het vastlopen op loading.
+
 ## Bronnenlijst
 
-* `Link naar bron 1`
-* `Link naar bron 2`
-* `Link naar bron 3`
+* https://p5js.org/examples/form-star.html
+* https://images-na.ssl-images-amazon.com/images/I/81KTVOVpdoL._AC_SL1500_.jpg
+* https://e.rpp-noticias.io/normal/2020/10/01/210921_1003870.jpg
