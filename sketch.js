@@ -2,11 +2,14 @@ var canvas;
 let button;
 var rectR = 40;
 var x, y, w, h;
-var totalShapeCount = 5;
+var totalShapeCount = 4;
 var totalStarCount = 3;
-var count;
+var sCount;
+var rCount;
 var p1 = false;
 var p2 = false;
+var p2Red = false;
+var p2Green = false;
 let img1;
 let img2;
 
@@ -15,7 +18,7 @@ function preload() {
 	// Loading images
 	img1 = loadImage("assets/Ball01.jpg");
 	img2 = loadImage("assets/Ball02.png");
-  }
+}
 
 function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
@@ -36,22 +39,28 @@ function draw() {
 function keyPressed() {
 	if (keyCode === 49) {
 		patternOneRed();
+		p2Red = false;
+		p2Green = false;
 		console.log("pressed 1");
 	} else if (keyCode === 50) {
 		patternTwoRed();
+		p2Red = true;
+		p2Green = false;
 		console.log("pressed 2");
 	} else if (keyCode === 82) {
 		clear();
 		if (p1 == true) {
 			patternOneRed()
 		} else if (p2 == true) {
+			p2Red = true;
+			p2Green = false;
 			patternTwoRed()
 		} else if (p1 == false && p2 == false) {
 			clear();
 			index();
 		}
 		console.log("pressed r");
-	} 	else if (keyCode === 66) {
+	} else if (keyCode === 66) {
 		clear();
 		if (p1 == true) {
 			patternOneBlue()
@@ -67,6 +76,8 @@ function keyPressed() {
 	} else if (keyCode === 71) {
 		clear();
 		if (p2 == true) {
+			p2Red = false;
+			p2Green = true;
 			patternTwoGreen()
 			patternTwoText();
 		} else if (p1 == false && p2 == false) {
@@ -82,6 +93,8 @@ function keyPressed() {
 		index();
 		p1 = false;
 		p2 = false;
+		p2Red = false;
+		p2Green = false;
 		console.log("pressed esc");
 	} else if (keyCode === 187) {
 		if (p1 == true) {
@@ -90,8 +103,8 @@ function keyPressed() {
 		} else if (p2 == true) {
 			clear();
 			totalStarCount++;
-			count = totalStarCount;
-			patternTwoGreen()
+			// count = totalStarCount;
+			patternTwoGreen();
 		}
 		console.log("pressed +");
 	} else if (keyCode === 189) {
@@ -100,11 +113,36 @@ function keyPressed() {
 			patternOneBlue();
 		} else if (p2 == true) {
 			totalStarCount--;
-			count = totalStarCount;
-			patternTwoGreen()
+			// count = totalStarCount;
+			patternTwoGreen();
 		}
 		console.log("pressed -");
+	} else if (keyCode === 32) {
+		if (p2Red == true) {
+			totalShapeCount = 4;
+			patternTwoRed();
+		} else if (p2Green == true) {
+			totalShapeCount = 4;
+			patternTwoGreen();
+		}
+		console.log("pressed spatie");
 	}
+
+}
+
+function mousePressed() {
+
+	if (p2Red == true) {
+		fill(200, 10, 10, 130);
+		drawRandomRectangles();
+		totalShapeCount++;
+		patternTwoText();
+	} else if (p2Green == true) {
+		fill(25, 155, 15, 100);
+		drawRandomRectangles();
+		totalShapeCount++;
+		patternTwoText();
+	} 
 
 }
 
@@ -204,7 +242,7 @@ function patternOneText() {
 function drawRandomRectangles() {
 	x = random(width);
 	y = random(-200, 200);
-	w = random(130,180);
+	w = random(130, 180);
 	h = 2400;
 
 	noStroke();
@@ -240,6 +278,8 @@ function patternTwoRed() {
 	// boolean for key events
 	p1 = false;
 	p2 = true;
+
+	pRed = true;
 
 	patternTwoText()
 }
@@ -282,23 +322,39 @@ function patternTwoText() {
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("Press R = Red + Reroll", 10, windowHeight - 40);
+	text("Press R = Red + Reroll", 10, windowHeight - 80);
 
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("Press G = Green + Reroll", 10, windowHeight - 20);
+	text("Press G = Green + Reroll", 10, windowHeight - 60);
 
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	text("- & + = Star Count", windowWidth - 170, windowHeight - 40);
+	text("Mouseclick or spatie = Add/Remove rectangle", 10, windowHeight - 40);
 
+	noStroke();
+	textSize(15);
+	fill(0, 0, 0);
+	text("- or + = Add/Remove Stars", 10, windowHeight - 20);
+
+	// Keeps rectangle count up to date
+	// noStroke();
+	// textSize(15);
+	// fill(0, 0, 0);
+	// rCount = text(
+	// 	"Rectangles = " + totalShapeCount,
+	// 	windowWidth - 170,
+	// 	windowHeight - 40
+	// );
+
+	
 	// Keeps star count up to date
 	noStroke();
 	textSize(15);
 	fill(0, 0, 0);
-	count = text(
+	sCount = text(
 		"Star Count = " + totalStarCount,
 		windowWidth - 170,
 		windowHeight - 20
